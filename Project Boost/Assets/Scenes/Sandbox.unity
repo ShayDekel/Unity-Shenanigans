@@ -302,13 +302,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.78, y: 3.79, z: -9.68}
+  m_LocalPosition: {x: 0, y: 3.81, z: -16.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1978400661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7433746477933778410, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
+  m_PrefabInstance: {fileID: 4432889863663366654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1978400669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978400661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e9fc000640bc742bce22fb7ebb4e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2145940319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,6 +386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Landing Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 8001908616421113883, guid: 30918736d1991ae4d86e8ba907b01bc3, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -388,7 +409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4052643320033515297, guid: 30918736d1991ae4d86e8ba907b01bc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: -20.18
       objectReference: {fileID: 0}
     - target: {fileID: 4052643320033515297, guid: 30918736d1991ae4d86e8ba907b01bc3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -429,6 +450,10 @@ PrefabInstance:
     - target: {fileID: 8001908616421113883, guid: 30918736d1991ae4d86e8ba907b01bc3, type: 3}
       propertyPath: m_Name
       value: Launch Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8001908616421113883, guid: 30918736d1991ae4d86e8ba907b01bc3, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -571,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 956598745901998896, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -20.07
       objectReference: {fileID: 0}
     - target: {fileID: 956598745901998896, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
       propertyPath: m_LocalPosition.y
@@ -609,20 +634,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1800416424325889482, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7433746477933778410, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8718130821054643485, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8718130821054643485, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7433746477933778410, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978400669}
   m_SourcePrefab: {fileID: 100100000, guid: 4adfebe1a7cb0e2459043c8dafbd3806, type: 3}
